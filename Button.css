@@ -1,34 +1,141 @@
 .button-text{
-    width:10%;
+    width:130px;
     background-color: #dd1e25;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Wells Fargo Sans SemiBold, Arial, Helvetica, "sans-serif";
     color: #ffffff;
     border-radius: 20px 20px;
-    margin:5rem;
 }
 
 .button-text:hover{
     text-decoration: underline;
-    background-color: #860106;
+    background-color: #b01c24;
 }
 
-.Sign-On{
-    width:10%;
+.Sign-On1{
+    width:100px;
     background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Wells Fargo Sans SemiBold, Arial, Helvetica, "sans-serif";
+    color: #000000;
+    border-radius: 20px 20px;
+    font-weight: 550;
+}
+
+.Sign-On1:hover{
+    text-decoration: underline;
+}
+
+.Sign-On2{
+    width:130px;
+    background-color: #352b6b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-family: Wells Fargo Sans SemiBold, Arial, Helvetica, "sans-serif";
+    color: #ffffff;
+    border-radius: 20px 20px;
+    border: 1px solid;
+}
+
+.Sign-On2:hover{
+    text-decoration: underline;
+    background-color: #1f1940;
+}
+
+.learn-more{
+    width:130px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-family: Wells Fargo Sans SemiBold, Arial, Helvetica, "sans-serif";
     color: #000000;
     border-radius: 20px 20px;
     border: 1px solid;
 }
 
-.Sign-On:hover{
-    text-decoration: underline;
+.learn-more:hover{
+    background-color: #000000;
+    color: #ffffff;
 }
+
+.learn-more2{
+    width:130px;
+    background-color: #dd1e25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-family:Wells Fargo Sans SemiBold, Arial, Helvetica, "sans-serif";
+    color: #ffffff;
+    border-radius: 10px 10px;
+    border: 1px solid;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.learn-more2:hover{
+    text-decoration: underline;
+    background-color: #b01c24;
+}
+
+
+
+
+    /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .learn-more, .learn-more2, .Sign-On1, .Sign-On2, .button-text{
+        width: 80%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .learn-more, .learn-more2, .Sign-On1, .Sign-On2, .button-text{
+        width: 500px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .learn-more, .learn-more2, .Sign-On2, .button-text {
+        width: 130px;
+    }
+
+    .Sign-On1{
+        width: 100px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .learn-more, .learn-more2, .Sign-On2, .button-text{
+        width: 130px;
+    }
+
+    .Sign-On1{
+        width: 100px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .learn-more, .learn-more2, .Sign-On2, .button-text{
+        width: 130px;
+    }
+    .Sign-On1{
+        width: 100px;
+    }
+}
+
+
+
