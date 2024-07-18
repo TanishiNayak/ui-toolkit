@@ -1,0 +1,17 @@
+Good morning everyone,
+
+I will start with a brief introduction of our project.
+
+So, Wells Fargo has a large number of Web developers working in separate team units who collaborate, build and manage multiple web application within Wells Fargo. Now these applications may differ from each other in terms of style, design, layouts patterns etc. This might result in inconsistencies with Wells Fargos branding and preferences. such variations can detract from a cohesive user experience and dilute the brand’s identity. 
+
+To address this issue, we have built a centralised UI Toolkit for Wells Fargo - Symphonia
+It is a web portal exclusively designed keeping in mind wells fargo standards and guidelines which caters to developers by providing them with demos of pre styled components like buttons etc. As well proving the functionality of copyable, customisable and reusable code snippets which reduces inconsistency across applications.
+
+Our target users are majorly designers and developers who may use the toolkit to maintain consistency is design as well as streamline the creation of user interfaces.
+
+So, the website streamlines the entire design process and accelerates the development time,
+Now developers dont have to write their codes from scratch or hire separate designers for styling pages, which allows them to create prototypes quickly and in an efficient manner.
+
+Secondly, the Learning curve of new as well as existing developers and general users is significantly reduced. They can quickly learn and adapt to the brand’s visual language as well as quickly become productive due to reduced time in understanding the codebase.
+
+Lastly, Faster time to market, with rapid devt projects can be deployed faster and reach the market in a short span of time
